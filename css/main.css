@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  margin: 0%;
+  padding: 0%; }
+
+/* transform y gradient */
+.linearGradient {
+  background: linear-gradient(to right, red, orange); }
+
+.linearGradient:hover {
+  background: linear-gradient(to right, orange, red);
+  cursor: pointer;
+  color: grey; }
+
+.fontTitulos {
+  text-align: center;
+  font-size: 45px; }
+
+.gradientText {
+  background: linear-gradient(to top, rgba(43, 88, 185, 0.63), rgba(6, 133, 12, 0.808)); }
+
+.imgCenter {
+  width: 75%;
+  height: 300px;
+  display: flex;
+  justify-content: center; }
+
+.backGround {
+  background-image: url(../img/background.png); }
+
+nav {
+  padding: 10px; }
+
+nav ul li {
+  text-decoration: none; }
+
+a {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 1em; }
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 3em; }
+
+h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.4em; }
+
+.textos {
+  color: whitesmoke; }
+
+.h3-uno {
+  background-color: green; }
+
+.h3-dos {
+  background-color: blue; }
+
+.containerUno {
+  width: 50%;
+  padding: 10px;
+  border: double;
+  border-color: brown;
+  float: left; }
+
+footer p {
+  font-family: "Roboto", sans-serif;
+  font-size: 1em; }
+
+.textoFooter {
+  color: #d30c0c; }
+
+.icon-lang {
+  float: left;
+  width: 50px;
+  height: 50px;
+  background-size: cover;
+  background-position: center;
+  background-image: url(../img/icono-es.jpg); }
+
+.facebook-icon {
+  background-image: url(../img/facebook.svg);
+  width: 30px;
+  height: 30px;
+  background-size: 100%;
+  display: flex;
+  float: right; }
+
+.instagram-icon {
+  background-image: url(../img/instagram.svg);
+  width: 30px;
+  height: 30px;
+  background-size: 100%;
+  display: flex;
+  float: right; }

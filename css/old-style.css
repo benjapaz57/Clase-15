@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Montserrat:ital@1&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    font-size: 62.5%;
+}
+nav{
+    background-color: rgba(47, 168, 83, 0.75);
+    display: flex;
+}
+nav ul{
+    display: flex;
+    padding-top: 2rem;
+}
+    nav ul li{
+        display: flex;
+        list-style: none;
+}
+
+            nav ul li a{
+                color: rgba(13, 58, 141, 0.795);
+                font-size: 3rem;
+                text-decoration: none;
+                margin-right: 2rem;
+}
+            nav ul li a:hover{
+                background-color:rgba(47, 168, 83, 0.4);
+            }
+
+body{
+    background-image: url(../img/background.png);
+    background-attachment: fixed;
+}
+main p{
+        /* height: 15vh; */
+        background-size: cover;
+        background-position: center;
+    }
+
+.overflowScroll{
+    overflow: scroll;
+}
+
+#box1{
+    padding: 5px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+
+#box2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 5px;
+}
+.gradientText{
+    background: linear-gradient(to top, rgba(43, 88, 185, 0.63), rgba(6, 133, 12, 0.808));
+}
+p em{
+    font-size: 16px;
+    text-decoration: underline;
+    font-weight: 600;
+    color: rgba(73, 73, 73, 0.705);
+}
+h1, h2, h3{
+    font-family: 'Amatic SC', cursive;
+}
+footer{
+    display: flex;
+    bottom: 0%;
+}
+
+footer p{
+    background-color: grey;
+}
+footer ul{
+    float: right;
+    position: fixed;
+    bottom: 0px;
+    right: 15px;
+}
+#terms{
+    padding: 5px;
+}
+
+/* Color text */
+.textRed{
+    color: red;
+}
+.textGreen{
+    color: green;
+}
+/* footer text */
+.footerText{
+    color: lawngreen;
+}
+/* Text modifications */
+.textCenter{
+    text-align: center;
+}
+.textMayusculas{
+    text-transform: uppercase;
+}
+.textUnderline{
+    text-decoration: underline;
+}
+.letterSpacing{
+    letter-spacing: 1px;
+}
+.smallText{
+    font-size: 14px;
+    line-height: 16px;
+}
+
+/* Background colors */
+.backgroundBlue{
+    background-color: rgba(100, 148, 237, 0.25);
+}
+.backgroundImportant{
+    background-color: rgba(245, 85, 46, 0.25);
+}
+
+/* Tamaño de titulos */
+.fontTitulos{
+    font-size: 32px;
+}
+.fontBT{
+    font-size: 45px;
+}
+.fontFormulario{
+    font-size: 3rem;
+}
+.fontFormulario2{
+    font-size: 2rem;
+}
+
+/* FLEX */
+.container{
+    padding: 3rem;
+    border: 1px;
+    display: flex;
+}
+.containerPromo{
+    padding: 2rem;
+    height: 25vh;
+}
+.historiaBT{
+    padding: 2rem;
+}
+
+
+
+/* transform y gradient */
+.linearGradient{
+    background: linear-gradient(to right, red, orange);
+}
+.linearGradient:hover{
+    background: linear-gradient(to right, orange, red);
+    cursor: pointer;
+    color: grey;
+}
+.transform:hover{
+    transform: translate(1rem);
+    cursor: pointer;
+}
+
+/* mediaquery */
+@media only screen and (min-width: 768px){
+    body section div{
+        grid-template-columns: repeat(3, auto);
+    }
+}
+
+@media only screen and (min-width: 1024px){
+    body section div{
+        grid-template-columns: repeat(4, auto);
+    }
+}

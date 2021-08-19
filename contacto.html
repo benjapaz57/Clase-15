@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="El mejor asesoramiento para comprar computadoras y el servicio técnico más completo en SDE, capital.">
+        <meta name="keywords" content="pc, notebook, arregle, reparacion, venta, motherboard, ram, ssd, backup, formateo, windows, linux, Mac, IOs, android">
+        <meta name="author" content="btcomputacion.com.ar">
+
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+        <!-- mi css -->
+        <link rel="stylesheet" href="css/main.css">
+
+        <title>CLASE 13</title>
+    </head>
+<body class="backGround">
+    <!-- COMIENZA NAV -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img class="w-25" src="img/logobt.png" alt="Logo BT">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Productos
+                        </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="productos.html">Productos</a></li>
+                        <li><a class="dropdown-item" href="productos.html">Servicios</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="productos.html">Todos nuestros Productos</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="nosotros.html">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="formasdepago.html">Formas de pago</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="contacto.html">Contacto</a>
+                </li>
+            </ul>
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Buscar</button>
+            </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- TERMINA NAV -->
+    <main>
+        <header>
+            <h1 class="fontTitulos">Formulario de Contacto</h1>
+            <br>
+            <!-- Falta crear el archivo .php -->
+            <section class="containerUno">
+                <form action="envio.php" method="POST">
+                    <fieldset>
+                        <legend><h3 class="textMayusculas textUnderline fontTitulos">Información de Contacto</h3></legend>
+                        <label class="fontFormulario2" for="nombre">Nombre</label>
+                        <input type="text" name="nombre" placeholder="Apellido y Nombre"><br>
+                        <label class="fontFormulario2" for="email">Email</label>
+                        <input type="email" name="email" placeholder="Direccion de Email"><br>
+                        <label class="fontFormulario2" for="tel">Teléfono</label>
+                        <input type="tel" name="tel" placeholder="Cod de Área + Número"><br>
+                        <label class="fontFormulario2" for="asunto">Asunto</label>
+                        <input type="text" name="asunto" placeholder="Motivo de su consulta">
+                    </fieldset>
+                    <fieldset>
+                        <legend><h3 class="textMayusculas fontFormulario">Uso de tu PC</h3></legend>
+                        <label class="fontFormulario2" for="juegos">Juegos</label>
+                        <input type="checkbox" name="juegos" value="juegos">
+                        <label class="fontFormulario2" for="DG">Diseño Gráfico</label>
+                        <input type="checkbox" name="DG" value="Diseño Grafico">
+                        <label class="fontFormulario2" for="arq">Arquitectura</label>
+                        <input type="checkbox" name="arq" value="Arq">
+                        <label class="fontFormulario2" for="ofi">Ofimática</label>
+                        <input type="checkbox" name="ofi" value="Ofi">
+                    </fieldset>
+                    <fieldset>
+                        <legend><h3 class="textMayusculas fontFormulario">¿Ya sos cliente nuestro?</h3></legend>
+                        <label class="fontFormulario2"for="">Si</label>
+                        <input type="radio" name="cliente" value=Si>
+                        <label class="fontFormulario2"for="">No</label>
+                        <input type="radio" name="cliente" value="No">
+                    </fieldset>
+                    <fieldset>
+                        <legend><h3 class="textMayusculas fontFormulario">Sistema Operativo</h3></legend>
+                        <label class="fontFormulario2" for="">¿Que sistema operativo usas?</label>
+                        <select name="sistema" id="">
+                            <option value="win">Windows</option>
+                            <option value="osx">MacOSX</option>
+                            <option value="linux">Linux</option>
+                        </select>
+                    </fieldset>
+                    <br><label for=""><h3 class="textMayusculas fontFormulario">Escribe tu mensaje</h3></label>
+                    <br>
+                    <textarea class="fontFormulario2" name="" id="" cols="30" rows="10" placeholder="Deja aquí tu mensaje"></textarea><br>
+                    <input type="reset" value="Cancelar">
+                    <input type="submit" value="Enviar">
+                </form>
+            </section>
+        </header>
+    </main>
+    <footer class="bg-white text-center textoFooter float-end backGround">
+        <div class="icon-lang"></div>
+        <div class="facebook-icon"></div>
+        <div class="instagram-icon"></div>
+        <p class="pie__textoFooter">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde ab dolor laboriosam? Temporibus dolor consequuntur veritatis dignissimos quod porro, aut nihil praesentium fugit consectetur illo iusto voluptates unde perspiciatis labore.</p>
+    </footer>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+</html>

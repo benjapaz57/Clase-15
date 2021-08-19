@@ -1,0 +1,27 @@
+h1{
+    font-family: $fontMain;
+    font-size: $fontBig;
+}
+h3{
+    font-family: $fontMain;
+    font-size: $fontMedium;
+}
+.textos{
+    color:  whitesmoke;
+}
+
+$colors:(uno:green,dos:blue);
+
+@each $name-color, $bg-color in $colors{
+
+    .h3-#{$name-color}{
+        background-color: $bg-color;
+    }
+}
+.containerUno{
+    width: 50%;
+    padding: 10px;
+    border: double;
+    border-color: brown;
+    float: left;
+}
