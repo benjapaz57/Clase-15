@@ -1,29 +1,9 @@
-footer p{
-    font-family: $fontMain;
-    font-size: $fontSmall;
-}
-.textoFooter{
-    color: rgb(211, 12, 12);
-}
-
-.icon-lang{
-    float: left;
-    width: 50px;
-    height: 50px;
-    background-size: cover;
-    background-position: center;
-    @if $lang==es{background-image: url(../img/icono-es.jpg);}
-    @else if $lang==en{background-image: url(../img/icono-en.jpg);}
-    @else {background-image: url(../img/icono-any.jpg);}
-}
-
-@each $icono in facebook, instagram{
-    .#{$icono}-icon{
-        background-image: url(../img/#{$icono}.svg);
-        width: 30px;
-        height: 30px;
-        background-size: 100%;
-        display: flex;
-        float: right;
+footer{
+    color:  rgba(255,255,255,.55);
+    p{
+        margin-bottom: 0;
+        font-family: $fontMain;
+        font-size: $fontSmall;
     }
 }
+
