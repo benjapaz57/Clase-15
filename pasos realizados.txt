@@ -1,7 +1,0 @@
-1- aplico a diseño.jpg la optimización de img para web
-2- aplico a gabinete.jpg la optimización de img para web
-3- aplico a placa.jpg la optimización de img para web
-4- aplico a staff.jpg la optimización de img para web
-5- agrego meta="description"
-6- agrego meta="keywords"
-7- agrego meta="author"
