@@ -6,8 +6,6 @@
 $width: 100%;
 $heigth: 400px;
 
-$lang:es;
-
 $bg-dark:#272323;
 $bg-info:#a0211d;
 $bg-success:#218d1b;
@@ -20,15 +18,6 @@ $w-100:100%;
 $d-flex:flex;
 $d-block:block;
 
-/* transform y gradient */
-.linearGradient{
-    background: linear-gradient(to right, red, orange);
-}
-.linearGradient:hover{
-    background: linear-gradient(to right, orange, red);
-    cursor: pointer;
-    color: grey;
-}
 
 .fontTitulos{
     text-align: center;
