@@ -18,7 +18,7 @@ h3{
     float: left;
 }
 
-@media (max-width: 400px){
+@media (min-width: 400px){
     .imgPagos{
         width: 400px;
         height: 400px;
