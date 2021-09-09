@@ -26,12 +26,7 @@ $d-block:block;
     background-color: #185439;
     padding: 1.5rem;
 }
-.imgCenter{
-    width: 70%;
-    height: 300px;
-    display: flex;
-    justify-content: center;
-}
+
 
 .backGround{
     background-image: url(../img/background.png);
@@ -51,6 +46,8 @@ $d-block:block;
         }
     }
 }
+
+.imgStaff
 
 .imgCarrousel{
     height: 30vh;

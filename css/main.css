@@ -10,12 +10,6 @@
   background-color: #185439;
   padding: 1.5rem; }
 
-.imgCenter {
-  width: 70%;
-  height: 300px;
-  display: flex;
-  justify-content: center; }
-
 .backGround {
   background-image: url(../img/background.png); }
 
@@ -32,10 +26,12 @@
     .botones i.fa-instagram {
       margin-left: 1rem; }
 
+.imgStaff
 .imgCarrousel {
   height: 30vh; }
   @media (min-width: 768px) {
-    .imgCarrousel {
+    .imgStaff
+.imgCarrousel {
       height: 70vh; } }
 
 @media (min-width: 992px) {
@@ -73,27 +69,27 @@ h3 {
   float: left; }
 
 .imgStaff {
-  width: 70%;
-  height: 600px;
+  height: 20vh; }
+  @media (min-width: 768px) {
+    .imgStaff {
+      height: 50vh; } }
+
+.imgPagos {
+  width: 100%;
+  height: 250px;
   display: flex;
   justify-content: center; }
 
-@media (max-width: 992px) {
-  .imgPagos {
-    width: 100%;
-    height: 250px;
-    display: flex;
-    justify-content: center; }
-  .imgNosotros {
-    width: 150px;
-    height: 200px;
-    display: flex;
-    justify-content: center; }
-  .imgProd {
-    width: 30%;
-    height: 250px;
-    display: flex;
-    justify-content: start; } }
+.imgNosotros {
+  width: 150px;
+  height: 200px;
+  display: flex;
+  justify-content: center; }
+
+.imgProd {
+  height: 50vh;
+  display: flex;
+  justify-content: center; }
 
 footer {
   color: rgba(255, 255, 255, 0.55); }
