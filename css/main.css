@@ -74,17 +74,17 @@ h3 {
 
 @media (max-width: 992px) {
   .imgPagos {
-    width: 100%;
+    width: 100px;
     height: 150px;
     display: flex;
     justify-content: center; }
   .imgNosotros {
-    width: 100%;
+    width: 150px;
     height: 200px;
     display: flex;
     justify-content: center; }
   .imgProd {
-    width: 100%;
+    width: 250px;
     height: 400px;
     display: flex;
     justify-content: center; } }
