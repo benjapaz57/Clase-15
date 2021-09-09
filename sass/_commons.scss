@@ -47,15 +47,6 @@ $d-block:block;
     }
 }
 
-.imgStaff
-
-.imgCarrousel{
-    height: 30vh;
-
-    @media (min-width: 768px){
-        height: 70vh;
-    }
-}
 
 @media (min-width: 992px){
     .navbar-expand-lg .navbar-collapse {

@@ -26,14 +26,6 @@
     .botones i.fa-instagram {
       margin-left: 1rem; }
 
-.imgStaff
-.imgCarrousel {
-  height: 30vh; }
-  @media (min-width: 768px) {
-    .imgStaff
-.imgCarrousel {
-      height: 70vh; } }
-
 @media (min-width: 992px) {
   .navbar-expand-lg .navbar-collapse {
     display: flex !important;
