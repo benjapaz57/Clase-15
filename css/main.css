@@ -79,9 +79,10 @@ h3 {
   justify-content: center; }
 
 .imgProd {
-  height: 50vh;
-  display: flex;
-  justify-content: center; }
+  height: 20vh; }
+  @media (min-width: 768px) {
+    .imgProd {
+      height: 50vh; } }
 
 footer {
   color: rgba(255, 255, 255, 0.55); }
