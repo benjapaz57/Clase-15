@@ -40,10 +40,12 @@ h3{
 }
 .imgProd{
     height: 20vh;
-    // display: flex;
-    // justify-content: center;
+    display: flex;
+    justify-content: center;
 
     @media (min-width: 768px){
         height: 50vh;
+        display: flex;
+        justify-content: center;
     }
 }
