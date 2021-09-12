@@ -38,13 +38,10 @@ h3{
     display: flex;
     justify-content: center;
 }
-// .imgProd{
-//     height: 50vh;
-//     display: flex;
-//     justify-content: center;
-// }
 .imgProd{
     height: 20vh;
+    display: flex;
+    justify-content: center;
 
     @media (min-width: 768px){
         height: 50vh;

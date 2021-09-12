@@ -79,7 +79,9 @@ h3 {
   justify-content: center; }
 
 .imgProd {
-  height: 20vh; }
+  height: 20vh;
+  display: flex;
+  justify-content: center; }
   @media (min-width: 768px) {
     .imgProd {
       height: 50vh; } }
