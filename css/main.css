@@ -80,9 +80,10 @@ h3 {
 
 .imgProd {
   height: 20vh;
+  width: 70%;
   display: flex;
   justify-content: center; }
-  @media (min-width: 500px) {
+  @media (min-width: 768px) {
     .imgProd {
       height: 50vh;
       display: flex;
